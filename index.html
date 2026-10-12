@@ -141,6 +141,26 @@
   }
   .cta-btn:hover { background: var(--accent-hover); color: var(--bg); }
 
+  /* ---- Share profile ---- */
+  .profile-share {
+    display: flex; align-items: center; gap: 1.5rem;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.5rem;
+  }
+  .profile-share .profile-qr {
+    display: block; width: 164px; height: 164px; flex: 0 0 164px;
+    background: #fff;
+  }
+  .profile-share h2 { border: none; padding: 0; margin-bottom: 0.35rem; }
+  .profile-share p { color: var(--muted); font-size: 0.9rem; }
+  .profile-share .profile-url { display: inline-block; margin-top: 0.45rem; overflow-wrap: anywhere; }
+  .qr-downloads { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-top: 0.8rem; font-size: 0.85rem; }
+  .profile-share a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+  @media (max-width: 520px) {
+    .profile-share { flex-direction: column; text-align: center; }
+    .qr-downloads { justify-content: center; }
+  }
+
   /* ---- Footer ---- */
   footer {
     margin-top: 2.5rem; padding: 1.5rem 0;
@@ -291,6 +311,20 @@
     <p>Get started with Make.com and build your first AI automation workflow.</p>
     <a href="https://www.make.com/en/register?pc=futurizerush" target="_blank" rel="noopener" class="cta-btn">Try Make.com Free</a>
   </div>
+
+  <section class="profile-share" id="share-profile" aria-labelledby="share-profile-title">
+    <img class="profile-qr" src="assets/qr/futurizerush-qr-white.svg" width="164" height="164"
+      alt="QR code linking to Rush's portfolio at https://futurizerush.github.io/" loading="lazy">
+    <div>
+      <h2 id="share-profile-title">Share my profile</h2>
+      <p>Scan to explore my work in custom apps, web scraping, and AI automation.</p>
+      <a class="profile-url" href="https://futurizerush.github.io/">futurizerush.github.io</a>
+      <div class="qr-downloads">
+        <a href="assets/qr/futurizerush-qr-white.svg" download>Download QR (SVG)</a>
+        <a href="assets/qr/futurizerush-qr-white.png" download>Download QR (PNG)</a>
+      </div>
+    </div>
+  </section>
 
   <footer>
     <p>

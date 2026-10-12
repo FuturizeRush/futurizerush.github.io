@@ -31,6 +31,16 @@ AI Agent & Automation Expert specializing in building and maintaining automated 
 
 Claude Code, OpenAI Codex, Apify, Crawlee, Make.com, n8n, Dify, Lovable, Zeabur, WordPress, Threads API, LINE Bot, Docker, Python, TypeScript
 
+## Profile QR code
+
+The [homepage share section](https://futurizerush.github.io/#share-profile) includes a QR code and downloads:
+
+- [SVG](assets/qr/futurizerush-qr-white.svg)
+- [PNG](assets/qr/futurizerush-qr-white.png)
+- [Transparent SVG for white print surfaces](assets/qr/futurizerush-qr-transparent.svg)
+
+All versions encode exactly `https://futurizerush.github.io/`, without a third-party redirect or tracking service. Reproduction instructions and independent decoder checks are documented in [assets/qr/README.md](assets/qr/README.md).
+
 ## License
 
 MIT

@@ -1,0 +1,110 @@
+{
+  "payload": "https://futurizerush.github.io/",
+  "redirect_service": null,
+  "tracking": false,
+  "encoder": "python-qrcode",
+  "error_correction": "H",
+  "version": 4,
+  "matrix_side_modules": 33,
+  "quiet_zone_modules_per_side": 4,
+  "total_side_modules": 41,
+  "png_pixels": [
+    1640,
+    1640
+  ],
+  "png_pixels_per_module": 40,
+  "print_size_mm_including_quiet_zone": [
+    65,
+    65
+  ],
+  "module_size_mm_at_print": 1.5853658536585367,
+  "module_size_points_at_print": 4.493950451315538,
+  "minimum_module_size_mm_requested": 0.7055555555555555,
+  "quiet_zone_mm_per_side_at_print": 6.341463414634147,
+  "artwork_color": "#000000",
+  "transparent_svg_instruction": "Use on plain white garment; keep the entire four-module border free of other printing.",
+  "packages": {
+    "qrcode": "8.2",
+    "pillow": "12.3.0",
+    "zxing-cpp": "3.1.1"
+  },
+  "checks": [
+    {
+      "pixels": [
+        1640,
+        1640
+      ],
+      "resampling": "original",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        820,
+        820
+      ],
+      "resampling": "nearest",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        410,
+        410
+      ],
+      "resampling": "nearest",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        205,
+        205
+      ],
+      "resampling": "nearest",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        300,
+        300
+      ],
+      "resampling": "lanczos",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        196,
+        196
+      ],
+      "resampling": "lanczos",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    },
+    {
+      "pixels": [
+        130,
+        130
+      ],
+      "resampling": "lanczos",
+      "decoder": "zxing-cpp",
+      "decoded": "https://futurizerush.github.io/",
+      "passed": true
+    }
+  ],
+  "verification_limit": "Independent software decoder passed; no physical printed-fabric or phone-camera scan test has been performed.",
+  "sha256": {
+    "futurizerush-qr-transparent.svg": "9eed9fbb73ce278464f1f249cd6898cfa21e3d374c34fe094c52e10b9c006baf",
+    "futurizerush-qr-white.svg": "7b10a5009c4c5f687fcf387d065a2a2dfd174d7f1d67405e5bb0ab99e80d2661",
+    "futurizerush-qr-white.png": "4c0e7f4a8b9c576b19fdae7f154bb45ed71c24b114ab5d8c6fd95d3db0430805",
+    "matrix.json": "7c0518d114b00ad7bb008ce6636a54ab042c77eca3ed0f8ec65ef76fda828be1"
+  }
+}
